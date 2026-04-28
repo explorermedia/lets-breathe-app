@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
-    "preview": "npx vite preview"
+    "build": "node ./node_modules/.bin/vite build",
+    "preview": "node ./node_modules/.bin/vite preview",
+    "postinstall": "chmod +x node_modules/.bin/*"
   },
   "dependencies": {
     "clsx": "2.1.1",
