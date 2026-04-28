@@ -1,0 +1,5 @@
+# Preserve executable permissions on scripts
+*.bin binary eol=lf
+node_modules/.bin/** binary eol=lf
+.yarn/cache/** binary eol=lf
+.yarn/unplugged/** binary eol=lf
